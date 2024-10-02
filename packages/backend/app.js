@@ -24,9 +24,10 @@ const corsOptions = {
 		"http://localhost:4173",
 		"http://[::1]:4173",
 		"http://[::1]:5173",
+		"https://expert-waffle-g4qw4597vrpj2pprj-5173.app.github.dev"
 	],
 	credentials: true, //included credentials as true
-	preflightContinue: false,
+	preflightContinue: true,
 };
 
 app.use(cors(corsOptions));
